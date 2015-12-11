@@ -6,6 +6,6 @@
 <?php echo Form::textarea('data');?>
 
 <?php
-	echo Form::submit();
+	echo Form::submit('submit','');
 	echo Form::close();
 ?>
